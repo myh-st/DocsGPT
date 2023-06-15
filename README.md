@@ -24,6 +24,10 @@ Say goodbye to time-consuming manual searches, and let <strong>DocsGPT</strong> 
 ![video-example-of-docs-gpt](https://d3dg1063dc54p9.cloudfront.net/videos/demov3.gif)
 
 
+## Our Livestream coming up on 17th of June at 6pm UK time
+[DocsGPT Live: Gen AI in business and Fine tuning models](https://discord.gg/pbCTxb8z?event=1117425466681335808)
+
+
 ## Features
 
 ![Group 9](https://user-images.githubusercontent.com/17906039/220427472-2644cff4-7666-46a5-819f-fc4a521f63c7.png)
@@ -56,6 +60,12 @@ Note: Make sure you have docker installed
 
 1. Open dowload this repository with `git clone https://github.com/arc53/DocsGPT.git`
 2. Create .env file in your root directory and set your OPENAI_API_KEY with your openai api key and  VITE_API_STREAMING to true or false if you dont want streaming answers
+   Should look like this inside
+   
+   ```
+   OPENAI_API_KEY=Yourkey
+   VITE_API_STREAMING=true
+   ```
 3. Run `docker-compose build && docker-compose up`
 4. Navigate to http://localhost:5173/
 
